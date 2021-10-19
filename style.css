@@ -39,9 +39,15 @@ nav ul{
 
 nav li{
     display: inline-block;
-    margin-left: 15%;
+    margin-left: 10%;
     padding-top: 23px;
     position: relative;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    float: center;
 }
 
 nav a:hover{
