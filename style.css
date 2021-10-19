@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 500;
+}
+
+nav a{
+    color: blanchedalmond;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+header{
+    background-color: brown;
+}
+
+nav{
+    float: center;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 15%;
+    padding-top: 23px;
+    position: relative;
+}
+
+nav a:hover{
+    color: #ffff;
+}
+
+nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+
+nav a:hover::before{
+    width: 100%;
+
+}
